@@ -1,0 +1,111 @@
+.hero-container{
+    background: rgb(8, 8, 100);
+    padding: 0px 100px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 670px;
+}
+.hero-left{
+    padding-top: 55px;
+}
+.hero-right{
+}
+.heading{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.left-paragraph{
+    margin-bottom: 50px;
+    font-weight: bold;
+    width: 350px;
+    font-size: 20px;
+}
+.small-heading{
+    margin-bottom: 40px;
+}
+
+.apple-logo-hero{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 1.8s ease-out;
+}
+.apple-logo-hero:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+.hero-apple-logo{
+    margin-right: 15px;
+}
+
+.hero-image{
+    width: 90%;
+    height: 650px;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-name: hero-image;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes hero-image {
+    0% { 
+        transform: translate(0, 0px);
+    }
+    50%
+    { 
+        transform: translate(0, 15px);
+    }
+    100%{ transform: translate(0, -0px);}
+    }
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+        .hero-container{
+            grid-template-columns: 1fr;
+            height: 950px;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 50px;
+        }
+        .hero-left{
+            padding-top: 55px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .heading{
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .small-heading{
+            margin-bottom: 20px;
+        }
+        .left-paragraph{
+            margin-bottom: 30px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 16px;
+        }
+        .apple-logo-hero{
+            padding: 15px;
+            font-size: 14px;
+            width: 170px;
+        }
+        .hero-right{
+        }
+        .hero-image{
+            width: 100%;
+            height: 500px;
+        }
+    }    

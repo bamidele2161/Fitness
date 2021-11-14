@@ -1,0 +1,465 @@
+.explore-container{
+    height: 600px;
+    padding: 50px 100px;
+}
+.explore-heading{
+    font-weight: 800;
+    font-size: 35px;
+    color: rgb(25, 25, 26);
+}
+.explore-paragraph{
+    color: rgb(103, 103, 103);
+    width: 500px;
+    font-weight: bold;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-item{
+    height: 300px;
+    width: 270px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-paragraph{
+    margin-top: -40px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+.card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+#first-card{
+    background-image: linear-gradient(to top, grey , rgb(176, 176, 176),grey, grey, grey);
+}
+#two-card{
+    background-image: linear-gradient(to top, rgb(56, 139, 247) , rgb(147, 182, 242),rgb(56, 139, 247), rgb(56, 139, 247), rgb(56, 139, 247));
+}
+#three-card{
+    background-image: linear-gradient(to top, rgb(232, 143, 240) , rgb(236, 188, 240),rgb(232, 143, 240), rgb(232, 143, 240), rgb(232, 143, 240));
+}
+#four-card{
+    background-image: linear-gradient(to top, rgb(110, 222, 186) , rgb(170, 244, 220),rgb(110, 222, 186),rgb(110, 222, 186), rgb(110, 222, 186));
+}
+
+.track-container{
+    height: 600px;
+    background: linear-gradient(to right, rgb(243, 243, 252), white, white, rgb(243, 243, 252));
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inspire-container{
+    height: 600px;
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.premium-container{
+    height: 600px;
+    background-color: rgb(8, 8, 100);
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.join-container{
+    height: 500px;
+    padding: 50px 100px;
+    background-color: rgb(241, 241, 252);
+}
+.join-grid-div{
+   display: flex;
+   flex-direction: row;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+.join-left{
+    height: 100%;
+}
+.join-right{
+    height: 100%;
+    padding: 0px 50px 0px 0px;
+}
+.join-heading{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(25, 25, 26);
+    margin-bottom: 40px;
+}
+.join-right-card{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 15px 5px rgb(235, 233, 233);
+    width: 350px;
+    margin-top: 30px;
+    transition: 1.8s ease-out;
+}
+.card-top{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.flash-icon{
+    border-radius: 10px;
+    background-color: rgb(8, 8, 100);
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 40px;
+}
+.right-card-text{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+.join-right-btn{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 1.8s ease-out;
+}
+.join-right-btn:hover{
+    background-color: rgb(8, 8, 100);
+    transition: .5s;
+}
+.list-item{
+    display: flex;
+    padding: 20px 0px;
+}
+.left-list-item{
+    list-style: none;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.left-list{
+}
+.list-icon{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.apple-logo-b{
+    margin-right: 10px;
+}
+.track-left{
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.track-image{
+    height: 500px;
+    width: 400px;
+}
+.track-left-heading{
+    font-weight: 800;
+    font-size: 35px;
+    color: rgb(25, 25, 26);
+
+}
+.track-left-paragraph{
+    color: rgb(8, 8, 100);
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.track-right{
+    padding: 100px;
+}
+.track-right-bton{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 1.8s ease-out;
+
+}
+.track-right-bton:hover{
+    background-color: rgb(8, 8, 100);
+    transition: .5s;
+}
+.apple-logo-track{
+    margin-right: 10px;
+}
+.track-heading{
+    font-size: 40px;
+    color: rgb(25, 25, 26);
+    font-weight: 800;
+}
+.track-paragraph{
+    line-height: 2;
+    width: 400px;
+    color: rgb(103, 103, 103);
+    font-weight: bold;
+}
+
+
+.inspire-right{
+    padding: 40px;
+}
+
+.inspire-image{
+    height: 500px;
+    width: 400px;
+}
+.inspire-left{
+}
+.inspire-left-btn{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 1.8s ease-out;
+
+}
+.inspire-left-btn:hover{
+    background-color: rgb(8, 8, 100);
+    color: white;
+    transition: .5s;
+}
+.apple-logo-inspire{
+    margin-right: 10px;
+}
+.inspire-heading{
+    font-size: 40px;
+    color: rgb(25, 25, 26);
+    font-weight: 800;
+}
+.inpire-paragraph{
+    line-height: 2;
+    width: 400px;
+    color: rgb(103, 103, 103);
+    font-weight: bold;
+}
+
+.premium-left{
+}
+
+.premium-image{
+    height: 500px;
+    width: 400px;
+}
+.premium-right{
+    padding: 100px;
+}
+.premium-right-btn{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 1.8s ease-out;
+
+}
+.premium-right-btn:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+.apple-logo-premium{
+    margin-right: 10px;
+}
+.premium-heading{
+    font-size: 40px;
+    font-weight: 800;
+}
+.premium-paragraph{
+    line-height: 2;
+    width: 400px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inspire-container{
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+        padding: 50px 50px 0px 50px;
+    }
+    .premium-container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 800px;
+        padding: 50px 50px 0px 50px;
+    }
+    .track-container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 870px;
+        padding: 50px 50px 0px 50px;
+    }
+    .explore-container{
+        height: 1600px;
+        padding: 50px;
+    }
+    .explore-heading{
+        font-size: 30px;
+    }
+    .explore-paragraph{
+        color: rgb(103, 103, 103);
+        width: 100%;
+        line-height: 1.8;
+        margin-bottom: 40px;
+    }
+    .card-item{
+        height: 280px;
+        width: 250px;
+        margin-bottom: 40px;
+    }
+        
+    .track-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+
+    }
+    .track-image{
+        height: 400px;
+        width: 300px;
+    }
+    .track-left-heading{
+        font-size: 30px;
+    }
+    .track-left-paragraph{
+        margin-bottom: 30px;
+    }
+    .track-right{
+        padding: 0px;
+    }
+    .track-right-bton{
+        padding: 15px;
+        width: 150px;
+        font-size: 14px;
+
+    }
+    .track-heading{
+        font-size: 35px;
+    }
+    .track-paragraph{
+        line-height: 1.8;
+        font-size: 16px;
+    }
+
+    .inspire-image{
+        height: 400px;
+        width: 300px;
+    }
+    .inspire-right{
+        padding: 0px;
+    }
+    .inspire-left-btn{
+        padding: 15px;
+        width: 150px;
+        font-size: 14px;
+    }
+    .inspire-heading{
+        font-size: 35px;
+    }
+    .inpire-paragraph{
+        line-height: 1.8;
+        font-size: 16px;
+    }
+
+    .premium-image{
+        height: 400px;
+        width: 300px;
+    }
+    .premium-right{
+        padding: 0px;
+    }
+    .premium-right-btn{
+        padding: 15px;
+        width: 150px;
+        font-size: 14px;
+    }
+    .premium-heading{
+        font-size: 35px;
+    }
+    .premium-paragraph{
+        line-height: 1.8;
+        font-size: 16px;
+    }
+    .join-container{
+        padding: 50px;
+        height: 800px;
+    }
+    .join-heading{
+        font-size: 40px;
+    }
+    .join-grid-div{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .join-left{
+        font-size: 15px;
+    }
+    .join-right{
+        padding: 0px;
+        width: 100%;
+    }
+    .join-right-card{
+        width: 320px;
+        padding: 30px;
+    }
+    .card-top{
+        margin-bottom: 20px;
+    }
+    .flash-icon{
+        font-size: 30px;
+    }
+    .right-card-text{
+        font-size: 16px;
+    }
+    .join-right-btn{
+        padding: 15px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+}
