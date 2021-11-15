@@ -1,0 +1,193 @@
+.contact-container{
+}
+.contact-content{
+    background-color: rgb(232, 232, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 783px;
+    padding: 100px;
+}
+.contact-heading{
+    font-size: 70px;
+    width: 600px;
+    text-align: center;
+    font-weight: 700;
+    align-items: center;
+    font-style: normal;
+}
+.contact-paragraph{
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    width: 650px;
+    line-height: 32px;
+}
+.contact-btn{
+    display: flex;
+}
+.faq-button{
+    background-color: rgb(8, 8, 100);
+    color: white;
+    padding: 24px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+.Email-button{
+    background-color: white;
+    color: black;
+    padding: 24px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.faq-button:hover{
+    background-color: black;
+    transition: .5s;
+}
+.Email-button:hover{
+    background-color: rgb(8, 8, 100);
+    color: white;
+    transition: .5s;
+}
+.customer-service{
+    height: 600px;
+    padding: 0px 100px 300px 100px;
+}
+.customer-form{
+    height: 560px;
+    margin-top: -300px;
+    padding: 100px 200px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 4px rgb(227, 227, 227);
+    border-radius: 16px;
+}
+.form-heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 39px;
+    margin-bottom: 50px;
+}
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.input-field{
+    padding: 20px;
+    width: 430px;
+    border-radius: 8px;
+    border: solid 1px rgb(231, 231, 252);
+}
+.button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.send-btn{
+    background-color: rgb(8, 8, 100);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 200px;
+    align-items: center;
+    height: 72px;
+    font-size: 16px;
+}
+.send-btn:hover{
+    background-color: black;
+    transition: .5s;
+}
+textarea{
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid 1px rgb(231, 231, 252);
+    height: 100px;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+
+    .contact-content{
+        height: 550px;
+        padding: 50px;
+    }
+    .contact-heading{
+        font-size: 40px;
+        width: 250px;
+    }
+    .contact-paragraph{
+        font-size: 16px;
+        width: 100%;
+        line-height: 28px;
+    }
+    .contact-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .faq-button{
+        margin-bottom: 30px;
+        width: 100%;
+        font-size: 14px;
+        
+    }
+    .Email-button{
+        width: 100%;
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    .customer-service{
+        height: 570px;
+        padding: 50px 50px 300px 50px;
+    }
+    .customer-form{
+        height: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        box-shadow:none;
+        border-radius: 0px;
+    }
+    .form-heading{
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .inputs{
+        flex-direction: column;
+        margin-bottom: 0px;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .input-field{
+        width: 340px;
+        margin-bottom: 50px;
+    }
+    textarea{
+        height: 250px;
+    }
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+    .input-field{
+        width: 230px;
+    }
+}

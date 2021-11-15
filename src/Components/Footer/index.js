@@ -4,6 +4,7 @@ import { IoFitness } from 'react-icons/io5'
 import AOS from 'aos'
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { IoLogoApple } from 'react-icons/io5'
+import { FaGooglePlay } from 'react-icons/fa'
 const Footer = () => {
     return (
         <div className="footer-container">
@@ -17,10 +18,10 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="badge">
-                        <IoLogoApple className="badge-logo" />
+                        <FaGooglePlay className="badge-logo" />
                         <div>
                             <p id="download-text">Download from</p>
-                            <p className="badge-os">Apple Store</p>
+                            <p className="badge-os">Google Store</p>
                         </div>
                     </div>
                 </div>
@@ -71,7 +72,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-last-div">
-                <h2 className="logo-text">FITN<span><IoFitness className="fit-icon" /></span>SS</h2>
+                <h2 className="logo-text" id="logo-text-footer">FITN<span><IoFitness className="fit-icon" /></span>SS</h2>
                 <p className="footer-copy">&copy; <a className="footer-page" href="#">Fitness</a>, All Right Reserved.</p>
             </div>
         </div>

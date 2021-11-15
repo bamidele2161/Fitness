@@ -1,0 +1,42 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+  }
+  
+  .scrollTop {
+    position: fixed; 
+    width: 100%;
+    bottom: 20px;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.5;
+    font-size: 30px;
+    color: rgb(8, 8, 100);
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-name: hero-image;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .scrollTop:hover{
+    opacity: 1;
+  }
+  
+  @keyframes scrollTop {
+    0% { 
+        transform: translate(0, 0px);
+    }
+    50%
+    { 
+        transform: translate(0, 15px);
+    }
+    100%{ transform: translate(0, -0px);}
+    }
+  

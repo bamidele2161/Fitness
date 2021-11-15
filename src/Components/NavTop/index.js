@@ -4,6 +4,7 @@ import { IoFitness, IoLogoApple } from 'react-icons/io5'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom'
 
 const NavTop = () => {
     const [navbar, setNavbar] = useState(false);
@@ -58,11 +59,11 @@ AOS.init({
             {!mobile && (
                 <div className="right-navlink">
                     <div className="navbar-links">
-                        <a className="navlink">Premium Host</a>
-                        <a className="navlink">Contact Us</a>
+                        <a className={navbar? "navlink" : "navlink-change"}>Premium Host</a>
+                        <Link to='/contact' className={navbar? "navlink" : "navlink-change"} id="contact-link">Contact Us</Link>
                     </div>
                     <div className={navbar? "white-bag-two":"white-bag-one"} data-aos='fade-down'>
-                        <a className="navlink" id={navbar? "app-download-change" : "app-download"}><IoLogoApple />Download App</a>
+                        <a className="navlink-btn" id={navbar? "app-download-change" : "app-download"}><IoLogoApple />Download App</a>
                     </div>
                 </div>
             )}
@@ -80,9 +81,9 @@ AOS.init({
 
             <div className={sidebar? "sidebar active" : "sidebar"}>
                     <div className="sidebar-items">
-                        <a href="#" className="sidebar-link" onClick={() => setSidebar(false)}>Home</a>
+                        <Link to="/home" className="sidebar-link" onClick={() => setSidebar(false)}>Home</Link>
                         <a href="#" className="sidebar-link" onClick={() => setSidebar(false)}>Premium Host</a>
-                        <a href="#" className="sidebar-link" onClick={() => setSidebar(false)}>Contact Us</a>
+                        <Link to="/contact" className="sidebar-link" onClick={() => setSidebar(false)}>Contact Us</Link>
                         <a href="#" className="sidebar-link" onClick={() => setSidebar(false)}>Download App</a>
                     </div>
             </div>

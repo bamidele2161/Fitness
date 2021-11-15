@@ -1,3 +1,8 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
 .explore-container{
     height: 600px;
     padding: 50px 100px;
@@ -316,19 +321,19 @@
     .inspire-container{
         display: flex;
         flex-direction: column;
-        height: 750px;
+        height: 800px;
         padding: 50px 50px 0px 50px;
     }
     .premium-container{
         display: flex;
         flex-direction: column-reverse;
-        height: 800px;
+        height: 830px;
         padding: 50px 50px 0px 50px;
     }
     .track-container{
         display: flex;
         flex-direction: column-reverse;
-        height: 870px;
+        height: 900px;
         padding: 50px 50px 0px 50px;
     }
     .explore-container{
@@ -340,7 +345,7 @@
     }
     .explore-paragraph{
         color: rgb(103, 103, 103);
-        width: 100%;
+        width: 90%;
         line-height: 1.8;
         margin-bottom: 40px;
     }
@@ -383,6 +388,7 @@
     .track-paragraph{
         line-height: 1.8;
         font-size: 16px;
+        width: 90%;
     }
 
     .inspire-image{
@@ -403,6 +409,7 @@
     .inpire-paragraph{
         line-height: 1.8;
         font-size: 16px;
+        width: 90%;
     }
 
     .premium-image{
@@ -423,6 +430,7 @@
     .premium-paragraph{
         line-height: 1.8;
         font-size: 16px;
+        width: 90%;
     }
     .join-container{
         padding: 50px;
@@ -444,8 +452,9 @@
         width: 100%;
     }
     .join-right-card{
-        width: 320px;
+        width: 200px;
         padding: 30px;
+        margin-top: 60px;
     }
     .card-top{
         margin-bottom: 20px;

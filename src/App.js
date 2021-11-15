@@ -1,36 +1,18 @@
-import React, {useState} from 'react'
-import './App.css'
-import NavTop from './Components/NavTop';
-import Hero from './Components/Hero';
-import Explore from './Components/Explore';
-import Footer from './Components/Footer';
-import { FaArrowCircleUp } from 'react-icons/fa'
+import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom'
+import React from 'react'
+import Home from './Pages/Home'
+import ContactP from './Pages/ContactP'
 
-function App() {
-    const [showScroll, setShowScroll] = useState(false)
-
-    const checkScrollTop = () => {
-      if (!showScroll && window.pageYOffset > 400){
-        setShowScroll(true)
-      } else if (showScroll && window.pageYOffset <= 400){
-        setShowScroll(false)
-      }
-    };
-    const scrollTop = () =>{
-      window.scrollTo({top: 0, behavior: 'smooth'});
-    };
-  
-  window.addEventListener('scroll', checkScrollTop)
+const App = () => {
   return (
-    <div className="App">
-      <NavTop />
-      <Hero />
-      <Explore />
-      <Footer />
-      <span>
-      <FaArrowCircleUp className="scrollTop" onClick={scrollTop}/></span>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path='/home' element={<Home />} exact />
+        <Route path='/contact' element={<ContactP/>}></Route>
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
+
