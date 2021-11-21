@@ -67,7 +67,7 @@ html,body {
 .right-navlink{
     display: flex;
     flex-direction: row;
-    width: 550px;
+    width: 800px;
     justify-content: space-between;
     margin-right: 100px;
 }
@@ -76,7 +76,7 @@ html,body {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    width: 300px;
+    width: 500px;
 }
 .navlink{
     cursor: pointer;
@@ -130,7 +130,12 @@ html,body {
     font-size: 28px;
 }
 .fit-icon{
-    font-size: 20px;
+    font-size: 23px;
+    color: rgb(8, 8, 100);
+}
+.fit-icon-change{
+    font-size: 23px;
+    color: white;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {

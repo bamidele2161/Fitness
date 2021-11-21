@@ -12,14 +12,14 @@ const Footer = () => {
                 <div className="footer-badge">
                     <div className="badge">
                         <IoLogoApple className="badge-logo" />
-                        <div>
+                        <div className="badge-col">
                             <p id="download-text">Download from</p>
                             <p className="badge-os">Apple Store</p>
                         </div>
                     </div>
                     <div className="badge">
                         <FaGooglePlay className="badge-logo" />
-                        <div>
+                        <div className="badge-col">
                             <p id="download-text">Download from</p>
                             <p className="badge-os">Google Store</p>
                         </div>

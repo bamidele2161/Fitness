@@ -173,10 +173,10 @@ textarea{
         margin-bottom: 0px;
         justify-content: center;
         align-items: center;
-        padding: 0px;
+        padding: 0px 20px;
     }
     .input-field{
-        width: 340px;
+        width: 100%;
         margin-bottom: 50px;
     }
     textarea{
@@ -185,9 +185,3 @@ textarea{
 }
 
 
-
-@media only screen and (min-width: 300px) and (max-width: 400px) {
-    .input-field{
-        width: 230px;
-    }
-}

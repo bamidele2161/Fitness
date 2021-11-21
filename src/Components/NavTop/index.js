@@ -53,14 +53,16 @@ AOS.init({
         <>
             <div  className={navbar? "nav-scroll" : " navbar-container" } >
             <div className="navbar-brand">
-                <h2 className="logo-text">FITN<span><IoFitness className="fit-icon" /></span>SS</h2>
+                <h2 className="logo-text">FITN<span><IoFitness className={navbar? "fit-icon" : "fit-icon-change" } /></span>SS</h2>
             </div>
 
             {!mobile && (
                 <div className="right-navlink">
                     <div className="navbar-links">
-                        <a className={navbar? "navlink" : "navlink-change"}>Premium Host</a>
+                        <Link to='/home' className={navbar? "navlink" : "navlink-change"} id="contact-link">Home</Link>
+                        <Link to='/about' className={navbar? "navlink" : "navlink-change"} id="contact-link">About</Link>
                         <Link to='/contact' className={navbar? "navlink" : "navlink-change"} id="contact-link">Contact Us</Link>
+                        <Link to='/trainers' className={navbar? "navlink" : "navlink-change"} id="contact-link">Trainers</Link>
                     </div>
                     <div className={navbar? "white-bag-two":"white-bag-one"} data-aos='fade-down'>
                         <a className="navlink-btn" id={navbar? "app-download-change" : "app-download"}><IoLogoApple />Download App</a>
@@ -82,8 +84,9 @@ AOS.init({
             <div className={sidebar? "sidebar active" : "sidebar"}>
                     <div className="sidebar-items">
                         <Link to="/home" className="sidebar-link" onClick={() => setSidebar(false)}>Home</Link>
-                        <a href="#" className="sidebar-link" onClick={() => setSidebar(false)}>Premium Host</a>
+                        <Link to="/about" className="sidebar-link" onClick={() => setSidebar(false)}>About</Link>
                         <Link to="/contact" className="sidebar-link" onClick={() => setSidebar(false)}>Contact Us</Link>
+                        <Link to="/contact" className="sidebar-link" onClick={() => setSidebar(false)}>Trainers</Link>
                         <a href="#" className="sidebar-link" onClick={() => setSidebar(false)}>Download App</a>
                     </div>
             </div>

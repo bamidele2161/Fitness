@@ -1,0 +1,207 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.about-container{
+}
+.about-page-image{
+    background-image: url("../../images/about.jpg");
+    height: 500px;
+    padding: 100px 100px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+}
+.image-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-heading{
+    font-size: 60px;
+    font-weight: 800;
+}
+.content-paragraph{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-us{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+.about-pic{
+    height: 100%;
+    width: 650px;
+    object-fit: cover;
+}
+.about-right{
+    padding-left: 50px;
+}
+.about-heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+.about-paragraph{
+    font-size: 20px;
+    line-height: 1.5;
+}
+span{
+    color: rgb(8, 8, 100);
+}
+.our-speciality{
+    height: 500px;
+    background-color: rgb(232, 232, 249);
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.speciality-right{
+    padding-left: 200px;
+}
+.speciality-pic{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.speciality-heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+.about-menu{
+    height: 300px;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-card-item{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    background-image: url("../../images/eq.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    background-position: center;
+    opacity: 0.9;
+
+}
+.about-card-icon{
+    font-size: 120px;
+    color: rgb(8, 8, 100);
+}
+.card-text{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.about-location{
+    height: 500px;
+    text-align: center;
+    background-image: url("../../images/ghouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px;
+}
+.location-heading{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.location-address{
+    background-color: rgb(8, 8, 100);
+    color: white;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .about-page-image{
+        height: 400px;
+        padding: 50px;
+    }
+    .content-heading{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .content-paragraph{
+        font-size: 28px;
+    }
+    
+    .about-us{
+        height: 850px;
+        flex-direction: column;
+        padding: 70px 50px;
+    }
+    .about-pic{
+        height: 300px;
+        width: 100%;
+    }
+    .about-right{
+        padding-left: 0px;
+    }
+    .about-heading{
+        font-size: 40px;
+    }
+    .about-paragraph{
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    
+    .our-speciality{
+        height: 900px;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    .speciality-right{
+        padding-left: 0px;
+    }
+    .speciality-pic{
+        height: 350px;
+        width: 100%;
+        object-fit: none;
+    }
+    .speciality-heading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .about-menu{
+        height: 900px;
+        padding: 70px 50px;
+        flex-direction: column;
+    }
+    .about-card-item{
+        width: 250px;
+
+    }
+    .about-card-icon{
+        font-size: 120px;
+        color: rgb(8, 8, 100);
+    }
+    .card-text{
+        font-size: 30px;
+    }
+    .about-location{
+        height: 300px;
+        padding: 50px;
+    }
+    .location-heading{
+        font-size: 40px;
+    }
+    .location-address{
+        font-size: 18px;
+    }
+}

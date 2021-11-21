@@ -34,6 +34,7 @@ html,body {
     color: white;
     transition: .5s;
 }
+
 .badge-logo{
     font-size: 50px;
     margin: 10px 20px 0px 0px;
@@ -126,27 +127,30 @@ html,body {
     }
     .badge{
         width: 150px;
+
     }
     .badge-logo{
-        font-size: 35px;
-        margin: 10px 10px 0px 0px;
+        font-size: 28px;
+        margin: 12px 5px 0px 0px;
     }
     #download-text{
-        font-size: 12px !important;
+        font-size: 11px !important;
     }
     .badge-os{
-        font-size: 16px;
+        font-size: 12px;
+        margin-top: -5px;
     }
     .footer-second-div{
         grid-template-columns: 1fr;
     }
 
     #logo-text-footer{
-        font-size: 18px;
+        font-size: 16px;
+        width: 100px;
     }
     .footer-copy{
         font-size: 14px;
-        margin-top: 15px;
+        margin-top: 8px;
         padding-top: 15px;
     }
     .footer-container a{
