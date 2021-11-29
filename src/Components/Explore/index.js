@@ -84,7 +84,7 @@ const Explore = () => {
                                     <TiTick className="list-icon"/>
                                     <li className="left-list-item"> Create Your Own Free Fitness Challenge</li>
                                 </div>
-                                <div className="list-item">'
+                                <div className="list-item">
                                     <TiTick className="list-icon"/>
                                     <li className="left-list-item"> Access Other People's Challenges</li>
                                 </div>

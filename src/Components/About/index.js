@@ -38,7 +38,7 @@ const About = () => {
                             <TiTick className="list-icon"/>
                             <li className="left-list-item">Physical Education</li>
                         </div>
-                        <div className="list-item">'
+                        <div className="list-item">
                             <TiTick className="list-icon"/>
                             <li className="left-list-item"> Personalized Items</li>
                         </div>
