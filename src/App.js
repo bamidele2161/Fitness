@@ -3,7 +3,8 @@ import React from 'react'
 import Home from './Pages/Home'
 import ContactP from './Pages/ContactP'
 import AboutUs from './Pages/AboutUs'
-import Trainer from './Pages/Trainer'
+import TrainersP from './Pages/TrainersP'
+import GalleryP from './Pages/GalleryP'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
         <Route path='/home' element={<Home />} exact />
         <Route path='/contact' element={<ContactP/>}></Route>
         <Route path='/about' element={<AboutUs/>}></Route>
-        <Route path='/trainers' element={<Trainer/>}></Route>
+        <Route path='/trainers' element={<TrainersP/>}></Route>
+        <Route path='/gallery' element={<GalleryP/>}></Route>
       </Routes>
     </Router>
   )

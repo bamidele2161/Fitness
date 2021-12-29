@@ -1,7 +1,6 @@
 import React from 'react'
 import './footer.css'
 import { IoFitness } from 'react-icons/io5'
-import AOS from 'aos'
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import { IoLogoApple } from 'react-icons/io5'
 import { FaGooglePlay } from 'react-icons/fa'

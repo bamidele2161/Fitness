@@ -63,6 +63,7 @@ AOS.init({
                         <Link to='/about' className={navbar? "navlink" : "navlink-change"} id="contact-link">About</Link>
                         <Link to='/contact' className={navbar? "navlink" : "navlink-change"} id="contact-link">Contact Us</Link>
                         <Link to='/trainers' className={navbar? "navlink" : "navlink-change"} id="contact-link">Trainers</Link>
+                        <Link to='/gallery' className={navbar? "navlink" : "navlink-change"} id="contact-link">Gallery</Link>
                     </div>
                     <div className={navbar? "white-bag-two":"white-bag-one"} data-aos='fade-down'>
                         <a className="navlink-btn" id={navbar? "app-download-change" : "app-download"}><IoLogoApple />Download App</a>
@@ -86,7 +87,8 @@ AOS.init({
                         <Link to="/home" className="sidebar-link" onClick={() => setSidebar(false)}>Home</Link>
                         <Link to="/about" className="sidebar-link" onClick={() => setSidebar(false)}>About</Link>
                         <Link to="/contact" className="sidebar-link" onClick={() => setSidebar(false)}>Contact Us</Link>
-                        <Link to="/contact" className="sidebar-link" onClick={() => setSidebar(false)}>Trainers</Link>
+                        <Link to="/trainers" className="sidebar-link" onClick={() => setSidebar(false)}>Trainers</Link>
+                        <Link to="/gallery" className="sidebar-link" onClick={() => setSidebar(false)}>Gallery</Link>
                         <a href="#" className="sidebar-link" onClick={() => setSidebar(false)}>Download App</a>
                     </div>
             </div>

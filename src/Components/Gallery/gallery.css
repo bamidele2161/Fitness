@@ -1,0 +1,79 @@
+.gallery-container{
+    
+}
+.gallery-div{
+    height: 1290px;
+    padding-top: 50px;
+}
+.gallery-items{
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gallery-items-second{
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.gallery-flex-item{
+    height: 500px;
+    width: 450px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s ease-out;
+    box-shadow: 1px 1px 20px 1px rgba(177, 177, 177, 0.5);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+
+    .gallery-div{
+        justify-content: center;
+        align-items: center;
+        height: 2250px;
+    }
+    .our-trainers{
+        font-size: 40px;
+    }
+    .gallery-items{
+        flex-direction: column;
+    }
+    .gallery-items-second{
+        flex-direction: column;
+    }
+    .gallery-flex-item{
+        height: 300px;
+        width: 280px;
+        margin-bottom: 50px;
+    }
+}
+
+
+.gallery-page-image{
+    background-image: url("../../images/gallery3.jpg");
+    height: 500px;
+    padding: 100px 100px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+}
+.image-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content-heading{
+    font-size: 60px;
+    font-weight: 800;
+}
+.content-paragraph{
+    font-size: 30px;
+    font-weight: bold;
+}

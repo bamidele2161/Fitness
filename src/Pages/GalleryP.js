@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
 import './style.css'
 import NavTop from '../Components/NavTop';
-import Hero from '../Components/Hero';
 import Footer from '../Components/Footer';
 import { FaArrowCircleUp } from 'react-icons/fa'
-import Trainers from '../Components/Trainers';
+import Gallery from '../Components/Gallery';
 
-const Home = () => {
+
+const GalleryP = () => {
     const [showScroll, setShowScroll] = useState(false)
 
     const checkScrollTop = () => {
@@ -22,9 +22,9 @@ const Home = () => {
   
   window.addEventListener('scroll', checkScrollTop)
   return (
-    <div className="home" path="home">
+    <div className="contact" path="contact">
       <NavTop />
-      <Trainers />
+      <Gallery />
       <Footer />
       <span>
       <FaArrowCircleUp className="scrollTop" onClick={scrollTop}/></span>
@@ -32,4 +32,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default GalleryP;
