@@ -29,6 +29,7 @@ const Trainers = () => {
                                 <p>Weight Loss Trainer</p>
                             </div>
                         </div>
+
                         <div className="flex-item" data-aos="zoom-in">
                             <div className="image-div">
                                 <img className="item-one-image" alt="first avatar" src={molar}/>
@@ -38,6 +39,7 @@ const Trainers = () => {
                             <p>Weight Gain Trainer</p>
                             </div>
                         </div>
+                        
                         <div className="flex-item" data-aos="fade-left">
                             <div className="image-div">
                                 <img className="item-one-image" alt="first avatar" src={sunny}/>

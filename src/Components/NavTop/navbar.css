@@ -67,7 +67,7 @@ html,body {
 .right-navlink{
     display: flex;
     flex-direction: row;
-    width: 850px;
+    width: 1050px;
     justify-content: space-between;
     margin-right: 100px;
 }
@@ -76,7 +76,7 @@ html,body {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    width: 600px;
+    width: 750px;
 }
 .navlink{
     cursor: pointer;

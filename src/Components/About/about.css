@@ -132,8 +132,10 @@ span{
         padding: 50px;
     }
     .content-heading{
-        font-size: 50px;
-        font-weight: 700;
+        font-size: 80px;
+        border: solid white;
+        text-align: center;
+        align-items: center;
     }
     .content-paragraph{
         font-size: 28px;
