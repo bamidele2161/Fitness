@@ -3,7 +3,7 @@ import './hero.css'
 import { IoLogoApple } from 'react-icons/io5'
 import AOS from 'aos'
 import 'aos/dist/aos.css';
-import image from '../../images/hero-img.png'
+import image from '../../images/landingnew.png'
 const Hero = () => {
     AOS.init({
         duration: 2000,
