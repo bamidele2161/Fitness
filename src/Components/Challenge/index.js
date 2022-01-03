@@ -35,8 +35,14 @@ const Challenge = () => {
                 <h1 className="question">Select your Category</h1>
                     <div className="question-div">
                         <div className="gender">
-                            <input type="submit" value="Male" onClick={() => handleClick('hard')} className="dynamic-btn"/>
-                            <input type="submit" value="Female" onClick={() => handleClick('light')} className="dynamic-btn"/>
+                            <input type="submit" value="Bicep" onClick={() => handleClick('hard')} className="dynamic-btn"/>
+                            <input type="submit" value="Tricep" onClick={() => handleClick('light')} className="dynamic-btn"/>
+                            <input type="submit" value="legs" onClick={() => handleClick('light')} className="dynamic-btn"/>
+                            <input type="submit" value="hips" onClick={() => handleClick('light')} className="dynamic-btn"/>
+                            <input type="submit" value="abs" onClick={() => handleClick('light')} className="dynamic-btn"/>
+                            <input type="submit" value="shoulder" onClick={() => handleClick('light')} className="dynamic-btn"/>
+                            <input type="submit" value="abs" onClick={() => handleClick('light')} className="dynamic-btn"/>
+                            <input type="submit" value="back" onClick={() => handleClick('light')} className="dynamic-btn"/>
                         </div>
                     </div>
                 

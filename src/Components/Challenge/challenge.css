@@ -24,6 +24,9 @@
     width: 300px;
     justify-content: space-between;
     display: flex;
+    flex-direction: row;
+    width: 500px;
+    border: solid red;
 }
 .result{
     align-items: center;
