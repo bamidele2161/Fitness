@@ -40,9 +40,7 @@ const Gallery = () => {
                             <img className="item-one-image" alt="first avatar" src={g4}/>
                         </div>
                     </div>
-                </div>
 
-                <div className="gallery-items-second">
                     <div className="gallery-flex-item" data-aos="zoom-in">
                         <div className="image-div">
                             <img className="item-one-image" alt="first avatar" src={bam}/>

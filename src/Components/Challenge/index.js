@@ -9,7 +9,12 @@ AOS.init({
 
 const Challenge = () => {
     const [value, setIsValue] = useState(data);
+    const [noOfElement, setNoOfElement] = useState(4);
 
+    const slice = value.slice(0, noOfElement);
+    const loadMore = () => {
+        setNoOfElement(noOfElement + noOfElement)
+    }
     const handleClick = (e) => {
         const updatedItems = data.filter((curElem) => {
             return curElem.type === e;
@@ -35,21 +40,18 @@ const Challenge = () => {
                 <h1 className="question">Select your Category</h1>
                     <div className="question-div">
                         <div className="gender">
-                            <input type="submit" value="Bicep" onClick={() => handleClick('hard')} className="dynamic-btn"/>
-                            <input type="submit" value="Tricep" onClick={() => handleClick('light')} className="dynamic-btn"/>
-                            <input type="submit" value="legs" onClick={() => handleClick('light')} className="dynamic-btn"/>
-                            <input type="submit" value="hips" onClick={() => handleClick('light')} className="dynamic-btn"/>
-                            <input type="submit" value="abs" onClick={() => handleClick('light')} className="dynamic-btn"/>
-                            <input type="submit" value="shoulder" onClick={() => handleClick('light')} className="dynamic-btn"/>
-                            <input type="submit" value="abs" onClick={() => handleClick('light')} className="dynamic-btn"/>
-                            <input type="submit" value="back" onClick={() => handleClick('light')} className="dynamic-btn"/>
+                            <input type="submit" value="Chest" onClick={() => handleClick('chest')} className="dynamic-btn"/>
+                            <input type="submit" value="Arm" onClick={() => handleClick('arm')} className="dynamic-btn"/>
+                            <input type="submit" value="Legs" onClick={() => handleClick('leg')} className="dynamic-btn"/>
+                            <input type="submit" value="Abs" onClick={() => handleClick('abs')} className="dynamic-btn"/>
+                            <input type="submit" value="Back" onClick={() => handleClick('back')} className="dynamic-btn"/>
                         </div>
                     </div>
                 
 
                 <div className='result'>
                     { 
-                        value.map((programme) => (
+                        slice.map((programme) => (
 
                             <div className="card-item" key={programme.id} data-aos="zoom-in">
                                 <div className="image-div">
@@ -66,6 +68,10 @@ const Challenge = () => {
                             </div>
                         ))
                     }
+                    
+                </div>
+                <div className="load-more">
+                        <button className="load-more-btn" onClick={loadMore}>Load More</button>
                 </div>
             </div>
 

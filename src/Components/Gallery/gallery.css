@@ -12,22 +12,17 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.gallery-items-second{
-    padding: 0px 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 15px;
-    flex-wrap: wrap;
-}
+
 .gallery-flex-item{
     height: 500px;
-    width: 400px;
+    width: 430px;
     position: relative;
     display: flex;
     align-items: flex-end;
     transition: .6s ease-out;
     box-shadow: 1px 1px 20px 1px rgba(177, 177, 177, 0.5);
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
