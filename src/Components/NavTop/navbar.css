@@ -138,8 +138,7 @@ html,body {
     color: white;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 500px) {
-    
+@media only screen and (min-width: 300px) and (max-width: 480px) {
     .navbar-brand{
         margin-left: 50px;
     }
@@ -161,7 +160,119 @@ html,body {
         font-size: 24px;
     }
 }
-
-@media only screen and (min-width: 1050px) and (max-width: 1300px) {
-    
+@media only screen and (min-width: 481px) and (max-width: 1065px) {
+    .fa-times{
+        margin-top: 25px;
+        margin-right: 100px;
+        font-size: 28px;
+    }
+    .fa-bars{
+        margin-top: 25px;
+        margin-right: 100px;
+        font-size: 28px;
+    }
 }
+@media only screen and (min-width: 1065px) and (max-width: 1084px) {
+    .logo-text{
+        font-size: 20px;
+    }
+    .navbar-links{
+        width: 550px;
+    }
+    .right-navlink{
+        width: 735px;
+    }
+    #app-download{
+        padding: 15px;
+    }
+    #app-download-change{
+        padding: 15px;
+    }
+    .white-bag-one{
+        padding: 30px 5px;
+    }
+    .white-bag-two{
+        padding: 30px 5px;
+    }
+}
+@media only screen and (min-width: 1085px) and (max-width: 1190px) {
+    .logo-text{
+        font-size: 22px;
+    }
+    .navbar-links{
+        width: 550px;
+    }
+    .right-navlink{
+        width: 750px;
+    }
+    #app-download{
+        padding: 15px;
+    }
+    #app-download-change{
+        padding: 15px;
+    }
+    .white-bag-one{
+        padding: 30px 10px;
+    }
+    .white-bag-two{
+        padding: 30px 10px;
+    }
+}
+
+@media only screen and (min-width: 1191px) and (max-width: 1294px) {
+
+    .navbar-links{
+        width: 600px;
+    }
+    .right-navlink{
+        width: 850px;
+    }
+    .logo-text{
+        font-size: 24px;
+    }
+    #app-download{
+        padding: 17px;
+    }
+    #app-download-change{
+        padding: 17px;
+    }
+    #app-download-change{
+        padding: 17px;
+    }
+    .white-bag-one{
+        padding: 30px 15px;
+    }
+    .white-bag-two{
+        padding: 30px 15px;
+    }
+
+}
+@media only screen and (min-width: 1295px) and (max-width: 1400px) {
+
+    .navbar-links{
+        width: 650px;
+    }
+    .right-navlink{
+        width: 950px;
+    }
+    .logo-text{
+        font-size: 25px;
+    }
+    #app-download{
+        padding: 18px;
+    }
+    #app-download-change{
+        padding: 18px;
+    }
+    #app-download-change{
+        padding: 18px;
+    }
+}
+
+
+/* @media only screen and (min-width: 1201px){
+    .navbar-container{
+        border: solid black;
+    }
+
+} */

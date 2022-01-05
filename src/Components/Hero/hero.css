@@ -2,14 +2,15 @@
     background: rgb(8, 8, 100);
     padding: 0px 100px;
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     height: 670px;
 }
 .hero-left{
-    padding-top: 55px;
+    width: 45%;
 }
 .hero-right{
+    width: 55%;
 }
 .heading{
     font-size: 50px;
@@ -20,6 +21,7 @@
     font-weight: bold;
     width: 350px;
     font-size: 20px;
+    line-height: 1.6;
 }
 .small-heading{
     margin-bottom: 40px;
@@ -47,13 +49,14 @@
 }
 
 .hero-image{
-    width: 120%;
-    height: 650px;
+    width: 100%;
+    height: 100%;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
     animation-name: hero-image;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
+    object-fit: cover;
 }
 
 @keyframes hero-image {
@@ -68,16 +71,18 @@
     }
 
 
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 700px) {
         .hero-container{
             grid-template-columns: 1fr;
-            height: 950px;
+            height: 1000px;
             justify-content: center;
             align-items: center;
+            display: flex;
+            flex-direction: column;
             padding: 0px 50px;
         }
         .hero-left{
-            padding-top: 55px;
+            padding-top: 25px;
             justify-content: center;
             align-items: center;
             display: flex;
@@ -90,6 +95,8 @@
         }
         .small-heading{
             margin-bottom: 20px;
+            text-align: center;
+            width: 250px;
         }
         .left-paragraph{
             margin-bottom: 30px;
@@ -103,9 +110,46 @@
             width: 170px;
         }
         .hero-right{
+            width: 100%;
+            margin-top: 20px;
         }
         .hero-image{
             width: 100%;
             height: 420px;
+        }
+    }    
+    @media only screen and (min-width: 701px) and (max-width: 1341px) {
+        .hero-container{
+            border: solid yellow;
+        }
+        .hero-left{
+        }
+        .heading{
+            
+            font-size: 45px;
+            margin-bottom: 40px;
+        }
+        .small-heading{
+            font-size: 24px;
+        }
+        .left-paragraph{
+            
+            width: 300px;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .apple-logo-hero{
+            background-color: white;
+            color: black;
+            padding: 18px;
+            width: 200px;
+            font-weight: bold;
+            font-size: 15px;
+            border: solid red;
+        }
+        .hero-right{
+        }
+        .hero-image{
+            height: 80%;
         }
     }    
