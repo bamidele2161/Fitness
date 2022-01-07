@@ -63,7 +63,6 @@ html,body {
 }
 
 .track-container{
-    height: 600px;
     background: linear-gradient(to right, rgb(243, 243, 252), white, white, rgb(243, 243, 252));
     display: flex;
     padding: 50px 100px;
@@ -71,14 +70,12 @@ html,body {
     justify-content: space-between;
 }
 .inspire-container{
-    height: 600px;
     display: flex;
     padding: 50px 100px;
     flex-direction: row;
     justify-content: space-between;
 }
 .premium-container{
-    height: 600px;
     background-color: rgb(8, 8, 100);
     display: flex;
     padding: 50px 100px;
@@ -87,7 +84,6 @@ html,body {
     color: white;
 }
 .join-container{
-    height: 500px;
     padding: 50px 100px;
     background-color: rgb(241, 241, 252);
 }
@@ -284,7 +280,7 @@ html,body {
     width: 400px;
 }
 .premium-right{
-    padding: 100px;
+    padding: 50px;
 }
 .premium-right-btn{
     background-color: white;
@@ -317,7 +313,8 @@ html,body {
     font-weight: bold;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 600px) {
+
+@media only screen and (min-width: 300px) and (max-width: 750px) {
     .card{
         display: flex;
         flex-direction: column;
@@ -474,6 +471,164 @@ html,body {
         padding: 15px;
         width: 100%;
         font-size: 14px;
+    }
+
+}
+
+
+@media only screen and (min-width: 751px) and (max-width: 1100px) {
+    .card{
+        display: flex;
+        flex-direction: row;
+    }
+    .card-item{
+        height: 270px !important;
+        width: 240px !important;
+    }
+    .inspire-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .premium-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .track-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .explore-container{
+        padding: 100px;
+    }
+    .explore-heading{
+        font-size: 30px;
+    }
+    .explore-paragraph{
+        color: rgb(103, 103, 103);
+        width: 90%;
+        line-height: 1.8;
+        margin-bottom: 40px;
+    }
+    .card-item{
+        height: 280px;
+        width: 250px;
+        margin-bottom: 40px;
+    }
+        
+    .track-left{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+
+    }
+    .track-image{
+        height: 500px;
+        width: 300px;
+    }
+    .track-left-heading{
+        font-size: 32px;
+    }
+    .track-left-paragraph{
+        margin-bottom: 35px;
+    }
+    .track-right{
+        padding: 50px;
+    }
+    .track-right-bton{
+        padding: 15px;
+        width: 150px;
+        font-size: 14px;
+
+    }
+    .track-heading{
+        font-size: 35px;
+    }
+    .track-paragraph{
+        line-height: 1.8;
+        font-size: 16px;
+        width: 250px;
+    }
+
+    .inspire-image{
+        height: 400px;
+        width: 300px;
+    }
+    .inspire-right{
+        padding: 0px;
+    }
+    .inspire-left-btn{
+        padding: 15px;
+        width: 150px;
+        font-size: 14px;
+    }
+    .inspire-heading{
+        font-size: 35px;
+    }
+    .inpire-paragraph{
+        line-height: 1.8;
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .premium-image{
+        height: 400px;
+        width: 300px;
+    }
+    .premium-right{
+        padding: 0 0 0 50px;
+    }
+    .premium-right-btn{
+        padding: 15px;
+        width: 150px;
+        font-size: 14px;
+    }
+    .premium-heading{
+        font-size: 35px;
+    }
+    .premium-paragraph{
+        line-height: 1.8;
+        font-size: 15px;
+        width: 90%;
+    }
+    .join-container{
+        padding: 50px 100px;
+    }
+    .join-heading{
+        font-size: 40px;
+    }
+    .join-grid-div{
+        display: flex;
+        flex-direction: row;
+    }
+    .join-left{
+        font-size: 15px;
+    }
+    .join-right{
+    }
+    .join-right-card{
+        width: 190px;
+        padding: 30px;
+        margin-top: 60px;
+    }
+    .card-top{
+        margin-bottom: 20px;
+    }
+    .flash-icon{
+        font-size: 28px;
+    }
+    .right-card-text{
+        font-size: 16px;
+    }
+    .join-right-btn{
+        padding: 15px;
+        width: 100%;
+        font-size: 14px;
+    }
+    .right-card-text{
+        font-size: 16px;
+    }
+    .left-list{
+        font-size: 16px;
     }
 
 }

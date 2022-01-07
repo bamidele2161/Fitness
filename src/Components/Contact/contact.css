@@ -88,7 +88,7 @@
 }
 .input-field{
     padding: 20px;
-    width: 430px;
+    width: 100%;
     border-radius: 8px;
     border: solid 1px rgb(231, 231, 252);
 }
@@ -122,7 +122,7 @@ textarea{
     border: solid 1px rgb(231, 231, 252);
     height: 100px;
 }
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 700px) {
 
     .contact-content{
         height: 550px;
@@ -185,3 +185,34 @@ textarea{
 }
 
 
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+
+    .contact-content{
+        height: 700px;
+        padding: 100px;
+    }
+    .contact-heading{
+        font-size: 50px;
+        width: 450px;
+    }
+    .contact-paragraph{
+        font-size: 17px;
+        width: 100%;
+        line-height: 30px;
+    }
+    .contact-btn{
+        display: flex;
+    }
+    .faq-button{
+        width: 100%;
+        font-size: 15px;
+        
+    }
+    .Email-button{
+        width: 100%;
+        font-size: 15px;
+    }
+    .customer-form{
+        padding: 50px 100px;
+    }
+}

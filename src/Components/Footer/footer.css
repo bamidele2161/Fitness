@@ -5,7 +5,6 @@ html,body {
 }
 .footer-container{
     background-color: black;
-    height: 400px;
     padding: 50px 100px;
     color: white;
 }
@@ -111,7 +110,7 @@ html,body {
     flex-direction: row;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 599px) {
     .footer-container{
         height: 900px;
         padding: 50px 50px;
@@ -142,6 +141,55 @@ html,body {
     }
     .footer-second-div{
         grid-template-columns: 1fr;
+    }
+
+    #logo-text-footer{
+        font-size: 16px;
+        width: 100px;
+    }
+    .footer-copy{
+        font-size: 14px;
+        margin-top: 8px;
+        padding-top: 15px;
+    }
+    .footer-container a{
+        font-size: 14px;
+    }
+    .footer-container p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+    .footer-container{
+        padding: 50px 100px;
+    }
+    .footer-first-div{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .footer-badge{
+        margin-bottom: 15px;
+        width: 350px;
+    }
+    .badge{
+        width: 150px;
+
+    }
+    .badge-logo{
+        font-size: 28px;
+        margin: 12px 5px 0px 0px;
+    }
+    #download-text{
+        font-size: 11px !important;
+    }
+    .badge-os{
+        font-size: 12px;
+        margin-top: -5px;
+    }
+    .footer-second-div{
+        grid-template-columns: 1fr 1fr;
     }
 
     #logo-text-footer{
